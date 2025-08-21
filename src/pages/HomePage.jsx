@@ -47,7 +47,7 @@ const HomePage = () => {
 
           <div className="text-xl flex flex-col gap-6">
               <p className='font-bold'>Become a Host</p>
-              <button className='bg-[#F25417] text-white py-1 px-3 rounded-lg font-semibold w-full'>Sign Up</button>
+              <button className='bg-[#F25417] text-white py-2 lg:py-1 px-3 rounded-lg font-semibold w-full'>Sign Up</button>
           </div>
         </div>
       </header>
@@ -80,8 +80,8 @@ const HomePage = () => {
       </main>
 
       <footer className='py-15 px-5 md:px-30'>
-        <section className='flex justify-between mb-10'>
-           <div className='w-30'>
+        <section className='flex flex-wrap justify-between mb-10'>
+           <div className='w-30 mb-5'>
             <img src="/logo.png" alt="logo" className='w-full object-cover object-center' />
           </div>
           <div className='flex gap-3  lg:gap-8 lg:items-center-safe text-xl  flex-col  lg:flex-row '>
