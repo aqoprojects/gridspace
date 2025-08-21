@@ -93,10 +93,10 @@ const HomePage = () => {
         </section>
         <div className='w-full bg-black/10 h-0.5'></div>
         <section className='flex justify-between flex-wrap gap-3 items-center-safe mt-5'>
-          <div className='font-bold text-lg'>
+          <div className='font-bold text-[clamp(1rem,3vw,1.2rem)]'>
             <p>Copyright © 2025, GridSpace. All rights reserved.</p>
           </div>
-          <div className='flex gap-5 text-md mr-29'>
+          <div className='flex gap-5 text-md mr-29 text-nowrap'>
             <p>Privacy Policy</p>
             <p>Terms and Services</p>
           </div>
