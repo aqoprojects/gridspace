@@ -26,7 +26,7 @@ const HomePage = () => {
               <button className='bg-[#F25417] text-white py-1 px-3 rounded-lg font-semibold'>Sign Up</button>
             </div>
           </div>
-          <div className="block md:hidden">
+          <div className="block md:hidden z-100">
             <button onClick={handleMobileMenu}>
               <IoIosMenu className={`${!isMobile ? 'block': 'hidden'} size-10`}/>
               <RxCross1 className={`${isMobile ? 'block': 'hidden'}  size-8`}/>
