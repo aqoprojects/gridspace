@@ -60,17 +60,17 @@ const HomePage = () => {
 
         <article className='bg-[#F9F3F1] flex flex-wrap lg:flex-nowrap justify-center-safe gap-6 px-4 md:px-8 lg:px-15 py-20'>
           <section className='bg-white shadow-sm shadow-black/30 flex flex-col gap-7 w-full   justify-center-safe items-center-safe pt-10 pb-23  lg:min-w-60  lg:max-w-110 px-4 rounded-xl'>
-            <div className='bg-[#EDF6FF] w-24 p-4 rounded-md mb-4'><img src="../../src/assets/images/buildings.png" alt="building" className='w-full object-center object-cover' /></div>
+            <div className='bg-[#EDF6FF] w-24 p-4 rounded-md mb-4'><img src="/buildings.png" alt="building" className='w-full object-center object-cover' /></div>
             <div className='text-2xl font-medium'>Cowork Spaces</div>
             <button className="bg-[#002F5B] text-white font-medium text-xl rounded-xl w-full py-2.5">Explore Spaces</button>
           </section>
           <section className='bg-white shadow-sm shadow-black/30 flex flex-col gap-7 w-full   justify-center-safe items-center-safe pt-10 pb-23  lg:min-w-60  lg:max-w-110 px-4 rounded-xl'>
-            <div className='bg-[#FFEBE3] w-24 p-4 rounded-md mb-4'><img src="../../src/assets/images/people.png" alt="building" className='w-full object-center object-cover' /></div>
+            <div className='bg-[#FFEBE3] w-24 p-4 rounded-md mb-4'><img src="/people.png" alt="building" className='w-full object-center object-cover' /></div>
             <div className='text-2xl font-medium'>Start Recruiting</div>
             <button className="bg-[#F25417] text-white font-medium text-xl rounded-xl w-full py-2.5">Explore Spaces</button>
           </section>
           <section className='bg-white shadow-sm shadow-black/30 flex flex-col gap-7 w-full   justify-center-safe items-center-safe pt-10 pb-23  lg:min-w-60  lg:max-w-110 px-4 rounded-xl'>
-            <div className='bg-[#EDF6FF] w-24 p-4 rounded-md mb-4'><img src="../../src/assets/images/folder.png" alt="building" className='w-full object-center object-cover' /></div>
+            <div className='bg-[#EDF6FF] w-24 p-4 rounded-md mb-4'><img src="/folder.png" alt="building" className='w-full object-center object-cover' /></div>
             <div className='text-2xl font-medium'>Discover Project</div>
             <button className="bg-[#002F5B] text-white font-medium text-xl rounded-xl w-full py-2.5">Explore Spaces</button>
           </section>
